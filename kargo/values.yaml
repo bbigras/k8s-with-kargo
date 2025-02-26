@@ -1,3 +1,5 @@
 api:
   secret:
     name: "kargo-secret"
+api.service.type: NodePort
+api.service.nodePort: 31444

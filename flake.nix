@@ -24,6 +24,7 @@
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
             kubeseal
+            kustomize
             nil
             nixd
           ];

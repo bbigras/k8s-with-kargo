@@ -1,5 +1,0 @@
-serviceMonitorNamespaceSelector:
-  matchExpressions:
-    - key = kubernetes.io/metadata.name
-      operator = Exists
-      values = []
